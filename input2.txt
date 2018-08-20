@@ -1,0 +1,21 @@
+Hotel Surfers 101 1
+Hotel Hilton 101 2
+Hotel California 101 1
+
+# check all other commands before booking
+Change Aarthi Jan 27 3 single 1 double 1
+Cancel Aarthi
+Print Hilton 
+
+Booking Stephanie Jan 1 3 single 1
+
+# No hotel has more than 2 rooms so should reject
+Booking Aarthi Jan 1 3 single 1 double 1
+
+Booking Aarthi Jan 1 3 single 1
+Booking Harry Jan 1 3 double 1
+
+# Should reject because everyone is staying 3 nights
+Booking Mary Jan 2 2 double 1
+
+Print Hilton

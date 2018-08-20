@@ -1,0 +1,23 @@
+Hotel Surfers 101 1      # Hotel Surfers has room 101 with capacity 2 ("double" room)
+Hotel Surfers 102 2      # Hotel Surfers has room 102 with capacity 2 ("double" room)
+Hotel Surfers 103 3      # Hotel Surfers has room 103 with capacity 1 ("single" room)
+Hotel Burleigh 101 3    # Hotel Burleigh has room 101 with capacity 2 ("double" room)
+
+# Test triple rooms
+Booking Aarthi Jan 25 2 triple 1
+Booking Harry Jan 25 2 triple 1
+
+# Should reject
+Booking Laura Jan 25 2 triple 1
+
+Cancel Aarthi
+
+# Should reject since Laura has not had a successful booking
+Change Laura Dec 1 2 single 1 double 1 triple 1
+
+
+Booking Laura Dec 1 2 single 1 double 1 triple 1
+Booking Paul Jul 2 3 double 1 triple 1
+
+Booking Ribbon Mar 2 1 single 1 triple 1
+Print Surfers

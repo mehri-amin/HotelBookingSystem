@@ -1,0 +1,22 @@
+Hotel Surfers 101 2      # Hotel Surfers has room 101 with capacity 2 ("double" room)
+Hotel Surfers 102 2      # Hotel Surfers has room 102 with capacity 2 ("double" room)
+Hotel Surfers 103 1      # Hotel Surfers has room 103 with capacity 1 ("single" room)
+Hotel Burleigh 101 2     # Hotel Burleigh has room 101 with capacity 2 ("double" room)
+
+Booking Stella Jan 1 14 double 1
+
+Change Stella Jan 1 3 single 1
+
+Change Stella Jan 1 3 double 1
+
+Change Stella Jan 4 3 double 1
+
+Booking Romeo Dec 31 3 double 1
+Booking Stella Dec 31 3 single 1 double 1
+
+# It will cancel first booking Stella made
+Cancel Stella
+# Cancels second booking Stella made
+Cancel Stella
+
+Print Surfers

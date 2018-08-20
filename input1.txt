@@ -1,0 +1,31 @@
+Hotel California 101 2
+Hotel California 102 2
+Hotel California 103 2
+Hotel Surfers 101 2
+Hotel Surfers 102 2
+Hotel Surfers 103 1
+Hotel Burleigh 101 1
+
+# Can book multiple rooms of a given type.
+Booking Stella Jan 26 1 double 2 
+
+Booking John Jan 15 1 single 1
+
+# checks available rooms including the rooms user wants to change from.
+Change Stella Jan 26 1 double 1
+
+Change Stella Jan 2 1 single 1
+
+Booking Gray Apr 22 4 double 1
+
+Booking Olaf Mar 22 4 double 1
+
+Booking Keith Mar 22 4 double 1
+
+Cancel John
+
+Print California
+
+Print Surfers
+
+
